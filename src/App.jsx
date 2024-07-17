@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import Landing from "./components/Landing.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar />
-    </>
+    <div className={'w-screen h-auto flex flex-col items-start justify-start'}>
+        <Landing />
+    </div>
   )
 }
 
