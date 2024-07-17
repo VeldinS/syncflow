@@ -12,10 +12,10 @@ function Landing() {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                 }}
-                className={' z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
+                className={' z-20 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
 
-            <div className={'z-10 relative w-1/2 flex flex-col justify-start items-start gap-8'}>
+            <div className={'z-30 relative w-1/2 flex flex-col justify-start items-start gap-8'}>
                 <h1 className={'text-white font-semibold text-6xl leading-tight'}>
                     Creative Digital <br/> Marketing Agency
                 </h1>
@@ -25,8 +25,8 @@ function Landing() {
                 <ButtonPrimary />
             </div>
 
-            <div className={'relative z-10 w-1/2 flex flex-col justify-center items-center'}>
-                <iframe src="https://lottie.host/embed/e787e60a-31ff-4fb5-bdc0-01b8cefe7c3b/CiNKcwabqc.json"></iframe>
+            <div className={'relative z-10 w-1/2 h-full flex flex-col justify-center items-center'}>
+                <iframe className={'w-full h-full'} src="https://lottie.host/embed/43ece56d-da47-4af2-b4d6-8bb202c54fd1/3YdSFWeTrx.json"></iframe>
             </div>
 
         </section>
