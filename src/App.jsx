@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 function App() {
 
   return (
-    <div className={'w-screen h-auto flex flex-col items-start justify-start'}>
+    <div className={'w-screen h-auto font-redHat flex flex-col items-start justify-start'}>
         <Landing />
     </div>
   )
