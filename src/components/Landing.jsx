@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from '../assets/Background.svg';
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
+import logoImg from "../assets/logo.png";
 
 function Landing() {
 
@@ -27,6 +28,7 @@ function Landing() {
 
             <div className={'absolute lg:relative z-10 w-full lg:w-1/2 h-full flex flex-col justify-center items-center'}>
                 <iframe className={'w-full h-full'} src="https://lottie.host/embed/43ece56d-da47-4af2-b4d6-8bb202c54fd1/3YdSFWeTrx.json"></iframe>
+                <img className={'w-full h-auto absolute opacity-10'} src={logoImg} />
             </div>
 
 

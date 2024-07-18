@@ -1,5 +1,6 @@
 import Landing from "./components/Landing.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Services from "./components/Services.jsx";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div className={'w-screen h-auto font-redHat flex flex-col items-start justify-start'}>
         <Navbar />
         <Landing />
+        <Services />
     </div>
   )
 }
