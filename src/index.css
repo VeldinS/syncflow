@@ -26,8 +26,17 @@ a:hover {
   color: #535bf2;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,6 +45,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {

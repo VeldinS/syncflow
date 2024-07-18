@@ -1,12 +1,12 @@
 import React from 'react';
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
-import backgroundImage from "../assets/Background.svg";
+import backgroundImage from "../assets/Background-2.svg";
 import logoImg from "../assets/logo.png";
 import contactImg from "../assets/message.svg";
 
 function Footer() {
     return (
-        <footer id={'footer'} className={'relative w-screen h-auto py-32 px-[5%] grid grid-cols-1 lg:grid-cols-2'}>
+        <footer id={'footer'} className={'relative bg-black w-screen h-auto py-24 px-[5%] grid grid-cols-1 lg:grid-cols-2'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
@@ -30,12 +30,13 @@ function Footer() {
                     <p className={'text-white text-xl font-light'}>or</p>
                     <div className={'flex flex-row items-center justify-center gap-2'}>
                         <img src={contactImg} alt={'Logo icon'}/>
-                        <a href={'mailto:info@synteq.dev'} className={'text-white text-xl'}>info@synteq.dev</a>
+                        <a href={'mailto:info@synteq.dev'} className={'text-white text-xl hover:text-mainGreen transition-all duration-300'}>info@synteq.dev</a>
                     </div>
                 </div>
             </div>
-            <div className={'absolute lg:relative z-10 w-full h-full flex flex-col justify-center items-center'}>
-                <img className={'w-full h-auto absolute opacity-10'} src={logoImg}/>
+            <div className={'absolute lg:relative z-10 w-full h-full flex flex-col justify-end items-end'}>
+                <img className={'absolute w-full h-auto opacity-10'} src={logoImg}/>
+                <p className={'text-mainGreen font-medium text-lg tracking-widest'}>©2023</p>
             </div>
         </footer>
     );

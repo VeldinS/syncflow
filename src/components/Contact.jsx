@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import backgroundImage from "../assets/Background-2.svg";
 
 function Contact() {
 
@@ -16,12 +17,21 @@ function Contact() {
     };
 
     return (
-        <section id={'contact'} className={'w-screen h-screen px-[5%] flex flex-col gap-8 lg:gap-12 justify-center items-center'}>
-            <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
+        <section id={'contact'} className={'relative w-screen h-screen px-[5%] flex flex-col gap-8 lg:gap-12 justify-center items-center'}>
+            <div
+                style={{
+                    backgroundImage: `url(${backgroundImage})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                }}
+                className={'rotate-180 z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
+            ></div>
+            <h1 className={'relative z-10 text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
                 <span className={'text-mainGreen font-bold'}>Tell</span> Us <br/>
                 What You <span className={'text-mainGreen font-bold'}>Need</span>
             </h1>
-            <form className={'w-full lg:w-1/2 flex flex-col justify-center items-center gap-8'}>
+            <form className={'relative z-10 w-full lg:w-1/2 flex flex-col justify-center items-center gap-8'}>
                 <input
                     placeholder="We can reach you at..."
                     value={email}

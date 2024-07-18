@@ -7,7 +7,7 @@ import Contact from "./components/Contact.jsx";
 function App() {
 
   return (
-    <div className={'w-screen h-auto font-redHat flex flex-col items-start justify-start'}>
+    <div className={'w-screen h-auto flex flex-col items-start justify-start'}>
         <Navbar />
         <Landing />
         <Services />
