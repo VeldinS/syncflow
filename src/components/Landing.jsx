@@ -3,6 +3,7 @@ import backgroundImage from '../assets/Background.svg';
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
 
 function Landing() {
+
     return (
         <section className={'relative w-screen h-screen px-[5%] flex flex-col lg:flex-row justify-center lg:justify-between items-center'}>
             <div
@@ -27,6 +28,8 @@ function Landing() {
             <div className={'absolute lg:relative z-10 w-full lg:w-1/2 h-full flex flex-col justify-center items-center'}>
                 <iframe className={'w-full h-full'} src="https://lottie.host/embed/43ece56d-da47-4af2-b4d6-8bb202c54fd1/3YdSFWeTrx.json"></iframe>
             </div>
+
+
 
         </section>
     );
