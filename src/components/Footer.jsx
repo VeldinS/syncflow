@@ -1,12 +1,12 @@
 import React from 'react';
-import backgroundImage from '../assets/Background.svg';
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
+import backgroundImage from "../assets/Background.svg";
 import logoImg from "../assets/logo.png";
+import contactImg from "../assets/message.svg";
 
-function Landing() {
-
+function Footer() {
     return (
-        <section className={'relative w-screen h-screen px-[5%] flex flex-col lg:flex-row justify-center lg:justify-between items-center'}>
+        <footer id={'contact'} className={'relative w-screen h-auto py-32 px-[5%] grid grid-cols-2'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
@@ -16,7 +16,7 @@ function Landing() {
                 }}
                 className={' z-20 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
-            <div className={'z-30 relative w-full lg:w-1/2 flex flex-col justify-start items-start gap-8'}>
+            <div className={'w-full flex flex-col justify-start items-start gap-8'}>
                 <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight'}>
                     <span className={'text-mainGreen font-bold'}>Creative</span> Digital <br/>
                     Marketing <span className={'text-mainGreen font-bold'}>Agency</span>
@@ -25,15 +25,21 @@ function Landing() {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
                     dolor sit amet consetetur sadipscing elitr
                 </p>
-                <ButtonPrimary/>
-            </div>
-
-                <div className={'absolute lg:relative z-10 w-full lg:w-1/2 h-full flex flex-col justify-center items-center'}>
-                    <iframe className={'w-full h-full'} src="https://lottie.host/embed/43ece56d-da47-4af2-b4d6-8bb202c54fd1/3YdSFWeTrx.json"></iframe>
-                    <img className={'w-full h-auto absolute opacity-10'} src={logoImg} />
+                <div className={'w-full flex flex-row justify-start items-center gap-8'}>
+                    <ButtonPrimary/>
+                    <p className={'text-white text-xl font-light'}>or</p>
+                    <div className={'flex flex-row items-center justify-center gap-2'}>
+                        <img src={contactImg} alt={'Logo icon'}/>
+                        <a href={'mailto:info@synteq.dev'} className={'text-white text-xl'}>info@synteq.dev</a>
+                    </div>
                 </div>
-        </section>
+            </div>
+            <div className={'absolute lg:relative z-10 w-full h-full flex flex-col justify-center items-center'}>
+
+                <img className={'w-full h-auto absolute opacity-10'} src={logoImg}/>
+            </div>
+        </footer>
     );
 }
 
-export default Landing;
+export default Footer;
