@@ -16,12 +16,12 @@ function Contact() {
     };
 
     return (
-        <section className={'w-screen h-screen px-[5%] flex flex-col gap-12 justify-center items-center'}>
+        <section id={'contact'} className={'w-screen h-screen px-[5%] flex flex-col gap-8 lg:gap-12 justify-center items-center'}>
             <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
                 <span className={'text-mainGreen font-bold'}>Tell</span> Us <br/>
                 What You <span className={'text-mainGreen font-bold'}>Need</span>
             </h1>
-            <form className={'w-1/2 flex flex-col justify-center items-center gap-8'}>
+            <form className={'w-full lg:w-1/2 flex flex-col justify-center items-center gap-8'}>
                 <input
                     placeholder="We can reach you at..."
                     value={email}
@@ -38,11 +38,11 @@ function Contact() {
                         message ? 'border-mainGreen placeholder-mainGreen' : 'border-mainGreen/50'
                     }`}
                 />
-                <div className="mt-4 flex flex-row flex-wrap items-center justify-center h-auto gap-4">
+                <div className="mt-4 flex flex-row flex-wrap items-center justify-center h-auto gap-2 md:gap-4">
                     {['Website From Scratch', 'Update Existing Website', 'Marketing Solution', 'SEO Tuned', 'Social Presence', 'More Clicks', 'Quality Content'].map((option, index) => (
                         <label
                             key={index}
-                            className={`flex items-center px-4 py-2 border rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105 shadow-sm hover:shadow-mainGreen  ${
+                            className={`flex items-center px-2 md:px-4 py-2 border rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105 shadow-sm hover:shadow-mainGreen  ${
                                 checkedItems[option] ? 'bg-mainGreen border-mainGreen text-defaultDark' : 'bg-transparent text-white border-white/50'
                             }`}
                         >
@@ -53,7 +53,7 @@ function Contact() {
                                 onChange={handleCheckboxChange}
                                 className="appearance-none"
                             />
-                            <span className={`transition-all font-semibold duration-300 ${
+                            <span className={`transition-all text-[12px] md:text-base font-semibold duration-300 ${
                                 checkedItems[option] ? 'text-defaultDark' : 'text-white'
                             }`}>{option}</span>
                         </label>

@@ -6,7 +6,7 @@ import contactImg from "../assets/message.svg";
 
 function Footer() {
     return (
-        <footer id={'contact'} className={'relative w-screen h-auto py-32 px-[5%] grid grid-cols-1 lg:grid-cols-2'}>
+        <footer id={'footer'} className={'relative w-screen h-auto py-32 px-[5%] grid grid-cols-1 lg:grid-cols-2'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
