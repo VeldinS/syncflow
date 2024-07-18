@@ -14,6 +14,9 @@ export default {
             fontFamily: {
                 redHat: ['"Red Hat Display"', 'sans-serif'],
             },
+            boxShadow: {
+                mainGreenShadow: '0 1px 30px rgba(0, 256, 0, 1)',
+            },
         },
     },
     plugins: [],
