@@ -14,9 +14,9 @@ function Footer() {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                 }}
-                className={' z-20 absolute top-0 left-0 right-0 border-0 w-full h-full'}
+                className={'z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
-            <div className={'w-full flex flex-col justify-start items-center lg:items-start gap-8'}>
+            <div className={'relative z-10 w-full flex flex-col justify-start items-center lg:items-start gap-8'}>
                 <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight text-center lg:text-start'}>
                     <span className={'text-mainGreen font-bold'}>Creative</span> Digital <br/>
                     Marketing <span className={'text-mainGreen font-bold'}>Agency</span>
@@ -35,7 +35,6 @@ function Footer() {
                 </div>
             </div>
             <div className={'absolute lg:relative z-10 w-full h-full flex flex-col justify-center items-center'}>
-
                 <img className={'w-full h-auto absolute opacity-10'} src={logoImg}/>
             </div>
         </footer>
