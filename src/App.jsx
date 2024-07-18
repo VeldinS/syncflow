@@ -5,6 +5,7 @@ function App() {
 
   return (
     <div className={'w-screen h-auto font-redHat flex flex-col items-start justify-start'}>
+        <Navbar />
         <Landing />
     </div>
   )
