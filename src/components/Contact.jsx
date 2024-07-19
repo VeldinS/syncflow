@@ -61,7 +61,7 @@ function Contact() {
                                 name={option}
                                 checked={checkedItems[option] || false}
                                 onChange={handleCheckboxChange}
-                                className="appearance-none"
+                                className="absolute w-0 h-0 appearance-none"
                             />
                             <span className={`transition-all text-[12px] md:text-base font-semibold duration-300 ${
                                 checkedItems[option] ? 'text-defaultDark' : 'text-white'

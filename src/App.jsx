@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Services from "./components/Services.jsx";
 import Footer from "./components/Footer.jsx";
 import Contact from "./components/Contact.jsx";
+import Process from "./components/Process.jsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Landing />
         <Services />
+        <Process />
         <Contact />
         <Footer />
     </div>

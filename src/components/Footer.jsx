@@ -25,7 +25,7 @@ function Footer() {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
                     dolor sit amet consetetur sadipscing elitr
                 </p>
-                <div className={'w-full flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8'}>
+                <div className={'relative z-10 w-full flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8'}>
                     <ButtonPrimary/>
                     <p className={'text-white text-xl font-light'}>or</p>
                     <div className={'flex flex-row items-center justify-center gap-2'}>
@@ -34,9 +34,9 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className={'absolute lg:relative z-10 w-full h-full flex flex-col justify-end items-end'}>
+            <div className={'absolute lg:relative z-0 w-full h-full flex flex-col justify-end items-center md:items-end'}>
                 <img className={'absolute w-full h-auto opacity-10'} src={logoImg}/>
-                <p className={'text-mainGreen font-medium text-lg tracking-widest'}>©2023</p>
+                <p className={'mb-4 text-mainGreen font-medium text-lg tracking-widest'}>©2023</p>
             </div>
         </footer>
     );
