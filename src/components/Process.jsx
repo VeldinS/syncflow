@@ -12,7 +12,7 @@ import backgroundImage from "../assets/Background-2.svg";
 function Process() {
 
     return (
-        <section className={'relative w-screen h-auto py-16 px-[5%] flex flex-col justify-center items-center gap-16'}>
+        <section className={'relative w-screen h-auto py-8 sm:py-16 px-[5%] flex flex-col justify-center items-center gap-2 sm:gap-16'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
@@ -22,11 +22,11 @@ function Process() {
                 }}
                 className={'z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
-            <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
+            <h1 className={'text-white font-semibold text-3xl md:text-6xl leading-tight text-center'}>
                 From Vision to Victory:<br/>
-                <span className={'text-mainGreen font-bold'}>Our Process</span>
+                <span className={'text-mainGreen font-bold text-4xl md:text-6xl'}>Our Process</span>
             </h1>
-            <div className={'w-full h-auto grid grid-cols-3 gap-[1px] bg-white/20'}>
+            <div className={'w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-white/20'}>
                 <Step number={1}
                       icon={step1Img}
                       name1={'Initial '}
