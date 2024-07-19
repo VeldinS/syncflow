@@ -29,7 +29,7 @@ function Services() {
             ></div>
             <div className={'relative z-10 w-full h-auto flex flex-col items-center lg:items-start justify-start gap-4'}>
                 <h2 className={'text-4xl font-bold text-white tracking-wider'}>What We <span
-                    className={'text-mainGreen'}>Offer</span></h2>
+                    className={'px-2 bg-black text-mainGreen'}>Offer</span></h2>
                 <div className={'w-full grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-8'}>
                     <WayCard word1={'Software'} word2={'Development'} image={softwareDevIcon}/>
                     <WayCard word1={'No-code'} word2={'Development'} image={noCodeIcon}/>
@@ -40,8 +40,8 @@ function Services() {
                 <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="w-full flex flex-col items-start justify-center gap-6 order-first lg:order-last">
                         <h2 className="text-3xl lg:text-4xl font-bold text-white tracking-wider">
-                            Our <span className="text-mainGreen">Digital</span> <br/>
-                            Marketing <span className="text-mainGreen">Expertise</span>
+                            Our <span className="px-2 bg-black text-mainGreen">Digital</span> <br/>
+                            Marketing <span className="px-2 bg-black text-mainGreen">Expertise</span>
                         </h2>
                         <p className="w-full lg:w-3/4 text-white text-xl">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem

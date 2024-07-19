@@ -28,8 +28,8 @@ function Contact() {
                 className={'rotate-180 z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
             <h1 className={'relative z-10 text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
-                <span className={'text-mainGreen font-bold'}>Tell</span> Us <br/>
-                What You <span className={'text-mainGreen font-bold'}>Need</span>
+                <span className={'px-2 bg-black text-mainGreen font-bold'}>Tell</span> Us <br/>
+                What You <span className={'px-2 bg-black text-mainGreen font-bold'}>Need</span>
             </h1>
             <form className={'relative z-10 w-full lg:w-1/2 flex flex-col justify-center items-center gap-8'}>
                 <input

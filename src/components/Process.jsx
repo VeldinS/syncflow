@@ -22,9 +22,9 @@ function Process() {
                 }}
                 className={'z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
-            <h1 className={'text-white font-semibold text-3xl md:text-6xl leading-tight text-center'}>
+            <h1 className={'text-white font-semibold text-3xl md:text-6xl leading-loose text-center'}>
                 From Vision to Victory:<br/>
-                <span className={'text-mainGreen font-bold text-4xl md:text-6xl'}>Our Process</span>
+                <span className={'px-2 bg-black text-mainGreen font-bold text-4xl md:text-6xl'}>Our Process</span>
             </h1>
             <div className={'w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-white/20'}>
                 <Step number={1}

@@ -19,7 +19,7 @@ function Landing() {
             <div className={'z-30 relative w-full lg:w-1/2 flex flex-col justify-start items-start gap-8'}>
                 <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight'}>
                     <span className={'text-mainGreen font-bold'}>Creative</span> Digital <br/>
-                    Marketing <span className={'text-mainGreen font-bold'}>Agency</span>
+                    Marketing <span className={'px-2 bg-black text-mainGreen font-bold'}>Agency</span>
                 </h1>
                 <p className={'w-full lg:w-3/4 text-white text-xl'}>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
