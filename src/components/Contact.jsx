@@ -17,7 +17,7 @@ function Contact() {
     };
 
     return (
-        <section id={'contact'} className={'relative w-screen h-screen px-[5%] flex flex-col gap-8 lg:gap-12 justify-center items-center'}>
+        <section id={'contact'} className={'relative w-screen h-auto py-8 sm:py-16 px-[5%] flex flex-col gap-8 lg:gap-12 justify-center items-center'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
