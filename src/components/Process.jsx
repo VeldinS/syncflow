@@ -12,7 +12,7 @@ import backgroundImage from "../assets/Background-2.svg";
 function Process() {
 
     return (
-        <section className={'relative w-screen h-auto py-8 sm:py-16 px-[5%] flex flex-col justify-center items-center gap-2 sm:gap-16'}>
+        <section id={'process'} className={'relative w-screen h-auto py-8 sm:py-16 px-[5%] flex flex-col justify-center items-center gap-2 sm:gap-16'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,

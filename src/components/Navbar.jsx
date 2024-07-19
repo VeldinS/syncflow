@@ -45,19 +45,19 @@ function Navbar() {
                         </div>
                     </div>
                     <nav className="flex flex-col items-start px-[5%] justify-center gap-8 h-auto">
-                        <a href={'#about'} className={'text-mainGreen text-4xl font-bold tracking-wider'}>
+                        <a href={'#about'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             About Us
                         </a>
-                        <a href={'#services'} className={'text-mainGreen text-4xl font-bold tracking-wider'}>
+                        <a href={'#services'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             Services
                         </a>
-                        <a href={'#process'} className={'text-mainGreen text-4xl font-bold tracking-wider'}>
+                        <a href={'#process'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             Process
                         </a>
-                        <a href={'#testimonials'} className={'text-mainGreen text-4xl font-bold tracking-wider'}>
+                        <a href={'#testimonials'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             Testimonials
                         </a>
-                        <a href={'#contact'} className={'text-white text-4xl font-bold tracking-wider'}>
+                        <a href={'#contact'} className={'text-white text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             Let's Chat
                         </a>
                     </nav>
