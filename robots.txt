@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+
+Sitemap: https://www.synteq.dev/sitemap.xml

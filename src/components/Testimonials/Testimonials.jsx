@@ -1,5 +1,5 @@
 import React from 'react';
-import ClientCard from "./UI/ClientCard.jsx";
+import ClientCard from "./components/ClientCard.jsx";
 
 function Testimonials() {
     return (

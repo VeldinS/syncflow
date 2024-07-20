@@ -1,9 +1,11 @@
 import React from 'react';
-import backgroundImage from "../assets/Background-3.svg";
-import ButtonPrimary from "./UI/ButtonPrimary.jsx";
 
-import award from '../assets/award.svg'
-import AboutBadge from "./UI/AboutBadge.jsx";
+import ButtonPrimary from "../Buttons/ButtonPrimary.jsx";
+import AboutBadge from "./components/AboutBadge.jsx";
+
+import backgroundImage from "../../assets/Background-3.svg";
+import award from '../../assets/award.svg'
+
 
 function About() {
     return (

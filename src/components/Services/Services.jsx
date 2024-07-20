@@ -1,18 +1,18 @@
 import React from 'react';
 
-import WayCard from "./UI/WayCard.jsx";
-import ServiceCard from "./UI/ServiceCard.jsx";
+import WayCard from "./components/WayCard.jsx";
+import ServiceCard from "./components/ServiceCard.jsx";
 
-import softwareDevIcon from "../assets/software.svg";
-import noCodeIcon from "../assets/nocode.svg";
-import marketingIcon from "../assets/marketing.svg";
-import seoIcon from "../assets/seo.svg";
-import webIcon from "../assets/web.svg";
-import videoIcon from "../assets/video.svg";
-import contentIcon from "../assets/content.svg";
-import socialIcon from "../assets/socialMedia.svg";
-import ppcIcon from "../assets/ppc.svg";
-import backgroundImage from "../assets/Background-3.svg";
+import softwareDevIcon from "../../assets/software.svg";
+import noCodeIcon from "../../assets/nocode.svg";
+import marketingIcon from "../../assets/marketing.svg";
+import seoIcon from "../../assets/seo.svg";
+import webIcon from "../../assets/web.svg";
+import videoIcon from "../../assets/video.svg";
+import contentIcon from "../../assets/content.svg";
+import socialIcon from "../../assets/socialMedia.svg";
+import ppcIcon from "../../assets/ppc.svg";
+import backgroundImage from "../../assets/Background-3.svg";
 
 
 function Services() {

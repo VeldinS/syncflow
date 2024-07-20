@@ -1,8 +1,10 @@
 import React from 'react';
-import backgroundImage from '../assets/Background.svg';
-import ButtonPrimary from "./UI/ButtonPrimary.jsx";
-import logoImg from "../assets/logo.png";
-import services from "./Services.jsx";
+
+import ButtonPrimary from "../Buttons/ButtonPrimary.jsx";
+import services from "../Services/Services.jsx";
+
+import backgroundImage from '../../assets/Background.svg';
+import logoImg from "../../assets/logo.png";
 
 function Landing() {
 
@@ -18,9 +20,9 @@ function Landing() {
                 className={' z-20 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
             <div className={'z-30 relative w-full lg:w-1/2 flex flex-col justify-start items-start gap-8'}>
-                <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight'}>
+                <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-loose'}>
                     <span className={'text-mainGreen font-bold'}>Creative</span> Digital <br/>
-                    Marketing <span className={'px-2 bg-black text-mainGreen font-bold'}>Agency</span>
+                    Marketing <span className={'px-2 text-mainGreen font-bold'}>Agency</span>
                 </h1>
                 <p className={'w-full lg:w-3/4 text-white text-xl'}>
                     Transforming ideas into reality with cutting-edge digital solutions. Elevate your brand with our expert services.

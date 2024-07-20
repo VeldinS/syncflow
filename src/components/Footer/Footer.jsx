@@ -1,8 +1,10 @@
 import React from 'react';
-import ButtonPrimary from "./UI/ButtonPrimary.jsx";
-import backgroundImage from "../assets/Background-2.svg";
-import logoImg from "../assets/logo.png";
-import contactImg from "../assets/message.svg";
+import ButtonPrimary from "../Buttons/ButtonPrimary.jsx";
+
+import backgroundImage from "../../assets/Background-2.svg";
+import logoImg from "../../assets/logo.png";
+import contactImg from "../../assets/message.svg";
+
 
 function Footer() {
     return (

@@ -1,13 +1,13 @@
 import React from 'react';
-import Step from "./UI/Step.jsx";
+import Step from "./components/Step.jsx";
 
-import step1Img from '../assets/step-contact.svg'
-import step2Img from '../assets/step-details.svg'
-import step3Img from '../assets/step-plan.svg'
-import step4Img from '../assets/step-dev.svg'
-import step5Img from '../assets/step-check.svg'
-import step6Img from '../assets/step-finish.svg'
-import backgroundImage from "../assets/Background-2.svg";
+import step1Img from '../../assets/step-contact.svg'
+import step2Img from '../../assets/step-details.svg'
+import step3Img from '../../assets/step-plan.svg'
+import step4Img from '../../assets/step-dev.svg'
+import step5Img from '../../assets/step-check.svg'
+import step6Img from '../../assets/step-finish.svg'
+import backgroundImage from "../../assets/Background-2.svg";
 
 function Process() {
 

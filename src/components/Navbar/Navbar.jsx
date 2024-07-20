@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
-import ButtonPrimary from "./UI/ButtonPrimary.jsx";
-import NavLink from "./UI/NavLink.jsx";
+import ButtonPrimary from "../Buttons/ButtonPrimary.jsx";
+import NavLink from "./components/NavLink.jsx";
 
-import logoImg from "../assets/logo.png";
-import linkedinLogo from "../assets/linkedIn.svg";
-import facebookLogo from "../assets/facebook.svg";
-import instagramLogo from "../assets/instagram.svg";
+import logoImg from "../../assets/logo.png";
+import linkedinLogo from "../../assets/linkedIn.svg";
+import facebookLogo from "../../assets/facebook.svg";
+import instagramLogo from "../../assets/instagram.svg";
+import NavLinkMobile from "./components/NavLinkMobile.jsx";
 
 function Navbar() {
 
@@ -45,18 +46,10 @@ function Navbar() {
                         </div>
                     </div>
                     <nav className="flex flex-col items-start px-[5%] justify-center gap-8 h-auto">
-                        <a href={'#about'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
-                            About Us
-                        </a>
-                        <a href={'#services'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
-                            Services
-                        </a>
-                        <a href={'#process'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
-                            Process
-                        </a>
-                        <a href={'#testimonials'} className={'text-mainGreen text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
-                            Testimonials
-                        </a>
+                        <NavLinkMobile name={'About Us'} link={'#about'} onClick={toggleMenu} />
+                        <NavLinkMobile name={'Services'} link={'#services'} onClick={toggleMenu} />
+                        <NavLinkMobile name={'Process'} link={'#process'} onClick={toggleMenu} />
+                        <NavLinkMobile name={'Testimonials'} link={'#testimonials'} onClick={toggleMenu} />
                         <a href={'#contact'} className={'text-white text-4xl font-bold tracking-wider hover:text-white'} onClick={toggleMenu}>
                             Let's Chat
                         </a>

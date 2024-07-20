@@ -1,5 +1,5 @@
 import React from 'react';
-import award from "../../assets/award.svg";
+import award from "../../../assets/award.svg";
 
 function AboutBadge({name, text}) {
     return (

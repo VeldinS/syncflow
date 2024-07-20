@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import backgroundImage from '../assets/Background-3.svg';
-import ButtonPrimary from "./UI/ButtonPrimary.jsx";
+
+import ButtonPrimary from "../Buttons/ButtonPrimary.jsx";
+
+import backgroundImage from '../../assets/Background-3.svg';
+
 
 function Contact() {
     const [email, setEmail] = useState('');
@@ -28,12 +31,10 @@ function Contact() {
     const handleFormSubmit = async (event) => {
         event.preventDefault();
 
-        // Convert checkedItems object to a string
         const checkedItemsString = Object.keys(checkedItems)
             .filter(key => checkedItems[key])
             .join(', ');
 
-        // Set the hidden input value to this string
         document.getElementById('checkedItemsHidden').value = checkedItemsString;
 
         try {
