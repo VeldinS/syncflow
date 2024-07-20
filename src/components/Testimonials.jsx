@@ -3,7 +3,7 @@ import ClientCard from "./UI/ClientCard.jsx";
 
 function Testimonials() {
     return (
-        <section id={'testimonials'} className={'relative w-screen h-auto py-8 sm:py-16 px-[5%] flex flex-col justify-center items-center gap-8'}>
+        <section id={'testimonials'} className={'relative w-screen h-auto py-12 sm:py-16 px-[5%] flex flex-col justify-center items-center gap-8'}>
             <h1 className={'relative z-10 text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
                 <span className={'px-2 bg-black text-mainGreen font-bold'}>Our</span> Efforts: <br/>
                 Their <span className={'px-2 bg-black text-mainGreen font-bold'}>Testimonials</span>
