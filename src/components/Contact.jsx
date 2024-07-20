@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import backgroundImage from "../assets/Background-2.svg";
+import backgroundImage from "../assets/Background-3.svg";
 
 function Contact() {
 
@@ -23,9 +23,9 @@ function Contact() {
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'repeat'
                 }}
-                className={'rotate-180 z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
+                className={'z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
             <h1 className={'relative z-10 text-white font-semibold text-4xl md:text-6xl leading-tight text-center'}>
                 <span className={'px-2 bg-black text-mainGreen font-bold'}>Tell</span> Us <br/>

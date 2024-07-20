@@ -2,6 +2,7 @@ import React from 'react';
 import backgroundImage from '../assets/Background.svg';
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
 import logoImg from "../assets/logo.png";
+import services from "./Services.jsx";
 
 function Landing() {
 
@@ -25,7 +26,7 @@ function Landing() {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
                     dolor sit amet consetetur sadipscing elitr
                 </p>
-                <ButtonPrimary/>
+                <ButtonPrimary text={'How Can We Help?'} link={'#services'}/>
             </div>
 
                 <div className={'absolute lg:relative z-10 w-full lg:w-1/2 h-full flex flex-col justify-center items-center'}>

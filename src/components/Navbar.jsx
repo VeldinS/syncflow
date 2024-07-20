@@ -25,7 +25,7 @@ function Navbar() {
                 <NavLink name={'Testimonials'} link={'#testimonials'}/>
             </div>
             <div className={'hidden lg:flex'}>
-                <ButtonPrimary/>
+                <ButtonPrimary text={'Contact'} link={'#contact'}/>
             </div>
 
             <div className="flex lg:hidden ">

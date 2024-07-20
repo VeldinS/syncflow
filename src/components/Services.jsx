@@ -17,7 +17,7 @@ import backgroundImage from "../assets/Background-2.svg";
 
 function Services() {
     return (
-        <section className={'relative w-screen h-auto py-16 px-[5%] flex flex-col items-start justify-start gap-24'}>
+        <section id={'services'} className={'relative w-screen h-auto py-16 px-[5%] flex flex-col items-start justify-start gap-24'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,

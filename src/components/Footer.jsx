@@ -26,7 +26,7 @@ function Footer() {
                     dolor sit amet consetetur sadipscing elitr
                 </p>
                 <div className={'relative z-10 w-full flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8'}>
-                    <ButtonPrimary/>
+                    <ButtonPrimary text={'Check our capabilities'} link={'#services'}/>
                     <p className={'text-white text-xl font-light'}>or</p>
                     <div className={'flex flex-row items-center justify-center gap-2'}>
                         <img src={contactImg} alt={'Logo icon'}/>
