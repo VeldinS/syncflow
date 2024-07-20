@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className={'absolute lg:relative z-0 w-full h-full flex flex-col justify-end items-center md:items-end'}>
-                <img className={'absolute w-full h-auto opacity-10'} src={logoImg}/>
+                <img className={'absolute w-full h-auto opacity-10'} src={logoImg} alt={'Logo image'}/>
                 <p className={'mb-4 text-mainGreen font-medium text-lg tracking-widest'}>©2023</p>
             </div>
         </footer>
