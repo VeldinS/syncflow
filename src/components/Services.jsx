@@ -12,7 +12,7 @@ import videoIcon from "../assets/video.svg";
 import contentIcon from "../assets/content.svg";
 import socialIcon from "../assets/socialMedia.svg";
 import ppcIcon from "../assets/ppc.svg";
-import backgroundImage from "../assets/Background-2.svg";
+import backgroundImage from "../assets/Background-3.svg";
 
 
 function Services() {
@@ -22,7 +22,7 @@ function Services() {
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center',
+                    backgroundPosition: 'right',
                     backgroundRepeat: 'no-repeat'
                 }}
                 className={'z-0 absolute top-0 left-0 right-0 border-0 w-full h-full'}

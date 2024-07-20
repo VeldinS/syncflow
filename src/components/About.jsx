@@ -3,68 +3,46 @@ import backgroundImage from "../assets/Background-3.svg";
 import ButtonPrimary from "./UI/ButtonPrimary.jsx";
 
 import award from '../assets/award.svg'
+import AboutBadge from "./UI/AboutBadge.jsx";
 
 function About() {
     return (
-        <section className={'relative w-screen h-auto px-[5%] py-16 grid grid-cols-2  items-center'}>
+        <section id={'about'} className={'relative w-screen h-auto px-[5%] py-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-4 lg:gap-0'}>
             <div
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'repeat'
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'left',
+                    backgroundRepeat: 'no-repeat'
                 }}
                 className={' z-20 absolute top-0 left-0 right-0 border-0 w-full h-full'}
             ></div>
             <div className={'w-full h-auto flex justify-center items-center'}>
-                <div
-                    className={'rounded-[32px] bg-[#352205] w-2/3 px-4 h-full aspect-square flex flex-col justify-center items-stretch gap-6'}>
-                    <div className={'flex flex-row justify-start items-center gap-4'}>
-                        <img className={'w-16'} src={award} alt={'Award icon'}/>
-                        <div className={'flex flex-col justify-center items-start gap-2'}>
-                            <p className={'text-white bg-defaultDark px-2 text-2xl font-semibold tracking-wider'}>
-                                Proven Expertise
-                            </p>
-                            <p className={'text-white text-base font-normal tracking-wide'}>
-                                Years of successful projects. Reliable, high-quality solutions.
-                            </p>
-                        </div>
-                    </div>
+                <div className={'rounded-[32px] bg-[#352205] w-full lg:w-2/3 px-4 h-full py-8 lg:py-0 aspect-auto lg:aspect-square flex flex-col justify-center items-stretch gap-6'}>
+                    <AboutBadge name={'Proven Expertise'}
+                                text={'Years of successful projects. Reliable, high-quality solutions.'}
+                    />
                     <div className={'w-full h-[2px] bg-mainGreen/50'}></div>
-                    <div className={'flex px-4 flex-row justify-start items-center gap-4'}>
-                        <img className={'w-16'} src={award} alt={'Award icon'}/>
-                        <div className={'flex flex-col justify-center items-start gap-2'}>
-                            <p className={'text-white bg-defaultDark px-2 text-2xl font-semibold tracking-wider'}>
-                                Innovative Solutions
-                            </p>
-                            <p className={'text-white text-base font-normal tracking-wide'}>
-                                Latest technologies for creative and effective outcomes.
-                            </p>
-                        </div>
-                    </div>
+                    <AboutBadge name={'Innovative Solutions'}
+                                text={'Latest technologies for creative and effective outcomes.'}
+                    />
                     <div className={'w-full h-[2px] bg-mainGreen/50'}></div>
-                    <div className={'flex px-4 flex-row justify-start items-center gap-4'}>
-                        <img className={'w-16'} src={award} alt={'Award icon'}/>
-                        <div className={'flex flex-col justify-center items-start gap-2'}>
-                            <p className={'text-white bg-defaultDark px-2 text-2xl font-semibold tracking-wider'}>
-                                Client-Centric
-                            </p>
-                            <p className={'text-white text-base font-normal tracking-wide'}>
-                                You don't like results? That's fine. Re-doing it right away.
-                            </p>
-                        </div>
-                    </div>
+                    <AboutBadge name={'Client-Centric'}
+                                text={"You don't like results? That's fine. Re-doing it right away."}
+                    />
                 </div>
             </div>
-            <div className={'z-30 relative w-full flex flex-col justify-center items-start gap-8'}>
-                <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight'}>
+            <div className={'z-30 relative w-full flex flex-col justify-center items-center lg:items-start gap-8 order-first lg:order-last'}>
+                <h1 className={'text-white font-semibold text-4xl md:text-6xl leading-tight text-center lg:text-start'}>
                     <span className={'text-mainGreen font-bold'}>Why</span> Should <br/>
                     You Choose <span className={'px-2 bg-black text-mainGreen font-bold'}>Us</span>
                 </h1>
-                <p className={'w-full text-white text-xl'}>
+                <p className={'w-full text-white text-xl text-center lg:text-start'}>
                     Our commitment to excellence and innovation sets us apart. We prioritize your needs and deliver tailored solutions that drive results.
                 </p>
-                <ButtonPrimary text={'Our Process of Working'} link={'#process'}/>
+                <div className={'lg:flex hidden'}>
+                    <ButtonPrimary text={'Our Process of Working'} link={'#process'}/>
+                </div>
             </div>
         </section>
     );
