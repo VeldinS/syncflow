@@ -4,6 +4,7 @@ import Services from "./components/Services.jsx";
 import Footer from "./components/Footer.jsx";
 import Contact from "./components/Contact.jsx";
 import Process from "./components/Process.jsx";
+import About from "./components/About.jsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <div className={'w-screen h-auto flex flex-col items-start justify-start'}>
         <Navbar />
         <Landing />
+        <About />
         <Services />
         <Process />
         <Contact />
