@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import Contact from "./components/Contact.jsx";
 import Process from "./components/Process.jsx";
 import About from "./components/About.jsx";
+import Testimonials from "./components/Testimonials.jsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Services />
         <Process />
         <Contact />
+        <Testimonials />
         <Footer />
     </div>
   )
