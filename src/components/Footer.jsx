@@ -22,8 +22,7 @@ function Footer() {
                     Marketing <span className={'text-mainGreen font-bold'}>Agency</span>
                 </h1>
                 <p className={'w-full lg:w-3/4 text-white text-xl text-center lg:text-start'}>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
-                    dolor sit amet consetetur sadipscing elitr
+                    Partner with us to achieve your digital marketing goals and drive sustainable growth. Let's create something extraordinary together.
                 </p>
                 <div className={'relative z-10 w-full flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8'}>
                     <ButtonPrimary text={'Check our capabilities'} link={'#services'}/>

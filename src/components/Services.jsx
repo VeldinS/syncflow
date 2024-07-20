@@ -44,8 +44,7 @@ function Services() {
                             Marketing <span className="px-2 bg-black text-mainGreen">Expertise</span>
                         </h2>
                         <p className="w-full lg:w-3/4 text-white text-xl">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem
-                            ipsum dolor sit
+                            We provide tailored digital strategies to elevate your business, deliver measurable results and sustainable growth.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 sm:gap-8 order-last lg:order-none">

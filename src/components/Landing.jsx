@@ -23,8 +23,7 @@ function Landing() {
                     Marketing <span className={'px-2 bg-black text-mainGreen font-bold'}>Agency</span>
                 </h1>
                 <p className={'w-full lg:w-3/4 text-white text-xl'}>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum
-                    dolor sit amet consetetur sadipscing elitr
+                    Transforming ideas into reality with cutting-edge digital solutions. Elevate your brand with our expert services.
                 </p>
                 <ButtonPrimary text={'How Can We Help?'} link={'#services'}/>
             </div>
